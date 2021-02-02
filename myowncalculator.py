@@ -10,16 +10,16 @@ secondNum = input('Please enter in the second number: ')
 #Build a group of If Else Statements, convert the inputs to integers, and returns the correct values.
 
 if userOperator == '+':
-    calc = int(firstNum) + int(secondNum)
+    calc = float(firstNum) + float(secondNum)
 
 elif userOperator == '-':
-    calc = int(firstNum) - int(secondNum)
+    calc = float(firstNum) - float(secondNum)
 
 elif userOperator == '*':
-    calc = int(firstNum) * int(secondNum)
+    calc = float(firstNum) * float(secondNum)
 
 elif userOperator == '/':
-    calc = int(firstNum) / int(secondNum)
+    calc = float(firstNum) / float(secondNum)
 
 else: 
     print('You have entered an invalid operator!')
