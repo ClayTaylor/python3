@@ -54,3 +54,9 @@ def myFunction (x,y): #Defining a Function named 'myFunction' and giving it 2 Pa
         print('X is NOT greater than Y')
 
 myFunction(x, y)
+
+
+name = input('Please tell me your name: ')
+age = input('Please tell me your age: ')
+
+print('My name is ' + name + ' and I am ' + str(age) + ' years old.')
