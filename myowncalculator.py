@@ -25,5 +25,3 @@ else:
     print('You have entered an invalid operator!')
 
 print(calc)
-
-#testing git
